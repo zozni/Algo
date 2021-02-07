@@ -6,3 +6,10 @@
 # 또한 입력과 출력 스트림은 별개이므로, 테스트케이스를 전부 입력받아서 저장한 뒤 전부 출력할 필요는 없다. 테스트케이스를 하나 받은 뒤 하나 출력해도 된다.
 # 자세한 설명 및 다른 언어의 경우는 이 글에 설명되어 있다.
 # 이 블로그 글에서 BOJ의 기타 여러 가지 팁을 볼 수 있다.
+
+import sys
+ 
+n = int(input())
+for i in range(n):
+        a,b = map(int, sys.stdin.readline().split())
+        print(a+b)
