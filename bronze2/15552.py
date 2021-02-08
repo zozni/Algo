@@ -8,8 +8,8 @@
 # 이 블로그 글에서 BOJ의 기타 여러 가지 팁을 볼 수 있다.
 
 import sys
- 
+
 n = int(input())
 for i in range(n):
-        a,b = map(int, sys.stdin.readline().split())
-        print(a+b)
+    a, b = map(int, sys.stdin.readline().split())
+    print(a+b)
